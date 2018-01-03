@@ -5,8 +5,8 @@ class App extends Component{
 
     render(){
         return (
-            <div className = "root">   
-                hi, front end boiler plate is here.            
+            <div className = "root">                   
+                   Hi, Just some vague front end code.
             </div>
         )
     }
