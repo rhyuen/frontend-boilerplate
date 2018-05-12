@@ -3,7 +3,7 @@ const HTMLWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     entry: {
-        "index": path.join(__dirname, "src/index.jsx")
+        "index": path.join(__dirname, "src/Index.jsx")
     },
     output: {
         path: path.join(__dirname, "dist"),
@@ -24,7 +24,7 @@ module.exports = {
             template: path.join(__dirname, "src/templates/index.html"),
             filename: "index.html",
             inject: "body",
-            title: "Financial Calculator"
+            title: "Front End Boilerplate Project"
         })
     ]
 };

@@ -1,8 +1,8 @@
 {
-  "name": "mutualfunds",
+  "name": "FrontEndBoilerPlate",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Robert Yuen <dungeonry@hotmail.com>",
+  "author": "Robert Yuen",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "6.26.0",
@@ -33,6 +33,6 @@
   "scripts": {
     "start": "webpack",
     "dev": "webpack-dev-server --open",
-    "test": "yarn"
+    "test": "jest"
   }
 }

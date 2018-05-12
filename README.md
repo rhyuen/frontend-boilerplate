@@ -19,3 +19,10 @@ To Run,
 or
 
 > yarn dev
+
+# DOCKER
+
+To make it go on Docker,
+
+> docker built -t febp .
+> docker run -p 8080:80 --name=febp febp
