@@ -1,53 +1,62 @@
 <!DOCTYPE HTML>
 <html lang="en" dir="ltr">
-    <head>
-        <title>My Boilerplate</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-        <meta name="royufedbp" content="My FrontEnd Boilerplate">
-        <style>                    
-            body{                
-                margin: 0;       
-                display: flex;
-                justify-content: center;          
-                font-family: "Segoe UI";                
-            }
-            #app{                
-                height: 100vh;                
-            }
-            .root{
-                width: 100%;
-                display: flex;                
-                flex-direction: column;
-            }
-                                 
 
-            @media screen and (max-width: 320px){
-                #app{
-                    max-width: 320px;
-                    width: 100%;                    
-                }              
+<head>
+    <title>My Boilerplate</title>
+    <link rel="icon" type="image/png/ico" href="./favicon.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="royufedbp" content="My FrontEnd Boilerplate">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            font-family: "Segoe UI";
+        }
+
+        #app {
+            height: 100vh;
+        }
+
+        .root {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        @media screen and (max-width: 320px) {
+            #app {
+                max-width: 320px;
+                width: 100%;
             }
-            @media screen and (max-width: 768px){
-                #app{
-                    max-width: 768px;
-                    width: 100%;                   
-                }               
+        }
+
+        @media screen and (max-width: 768px) {
+            #app {
+                max-width: 768px;
+                width: 100%;
             }
-            @media screen and (max-width: 1024px){
-                #app{
-                    max-width: 1024px;
-                    width: 100%;                    
-                }               
+        }
+
+        @media screen and (max-width: 1024px) {
+            #app {
+                max-width: 1024px;
+                width: 100%;
             }
-            @media screen and (min-width: 1024px){
-                #app{
-                    width: 1024px;                                                          
-                }                
+        }
+
+        @media screen and (min-width: 1024px) {
+            #app {
+                width: 1024px;
             }
-        </style>
-    </head>
-    <body>
-        <div id = "app"></div>
-    </body>    
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app"></div>
+</body>
+
 </html>
