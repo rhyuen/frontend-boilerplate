@@ -2,6 +2,7 @@
 
 Just a front-end repository so I can get going with Front-End development more quickly.
 
+> - DE10-18 - Updated Webpack 3 to Webpack 4
 > - OC21-18 - Adding favicon.ico
 > - OC21-18 - Adding file-loader, copy-webpack-plugin
 > - OC21-18 - Removing yarn.lock
