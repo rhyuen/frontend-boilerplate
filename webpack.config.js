@@ -1,5 +1,8 @@
 const path = require("path");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
+const {
+    BundleAnalyzerPlugin
+} = require("webpack-bundle-analyzer");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
@@ -47,6 +50,12 @@ module.exports = {
         }], {
             debug: "debug",
             copyUnmodified: true
+        }),
+        new BundleAnalyzerPlugin({
+            analyzerMode: "static",
+            openAnalyzer: false,
+            reportFilename: "bundle_sizes.html"
         })
-    ]
+    ],
+    devtool: "source-map"
 };
