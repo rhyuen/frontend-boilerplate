@@ -2,6 +2,10 @@
 
 Just a front-end repository so I can get going with Front-End development more quickly.
 
+> - DE17-18 - Added React Hot Loading, Dynamic Import for ReactSuspense
+> - DE17-18 - Enabled React.StrictMode
+> - DE17-18 - Added Webpack Bundle Analyzer
+> - DE17-18 - Added Sourcemaps
 > - DE10-18 - Updated Webpack 3 to Webpack 4
 > - OC21-18 - Adding favicon.ico
 > - OC21-18 - Adding file-loader, copy-webpack-plugin
