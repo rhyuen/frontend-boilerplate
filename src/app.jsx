@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { hot } from "react-hot-loader";
 import Form from "./Form.jsx";
 
 class App extends Component {
@@ -38,6 +39,9 @@ class App extends Component {
 
     return (
       <div className="root">
+        <section>
+          <p>React Hotloading Added.</p>
+        </section>
         <p>Hi, Just some vague front end code.</p>
         <p>The Second Element for the FEBP</p>
 
@@ -90,4 +94,4 @@ export class Link extends Component {
   }
 }
 
-export default App;
+export default hot(module)(App);

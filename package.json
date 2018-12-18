@@ -5,6 +5,7 @@
   "author": "Robert Yuen",
   "license": "MIT",
   "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
     "babel-loader": "8.0.4",
     "copy-webpack-plugin": "4.6.0",
     "enzyme": "3.8.0",
@@ -35,6 +36,7 @@
     "prop-types": "15.6.2",
     "react": "16.6.3",
     "react-dom": "16.6.3",
+    "react-hot-loader": "4.6.1",
     "react-router-dom": "4.3.1",
     "styled-components": "4.1.2",
     "uuid": "3.3.2",
@@ -45,6 +47,7 @@
     "start": "webpack",
     "build": "webpack --mode production ./src/Index.jsx",
     "dev": "webpack-dev-server --mode development --open",
+    "dev:hot": "npm run dev -- --hot",
     "format": "prettier --write \"src/*.{js,jsx,css,json}\" ",
     "lint": "eslint \"src/**/*.{js,jsx}\"",
     "test": "jest --watch"
