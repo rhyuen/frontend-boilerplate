@@ -2,6 +2,7 @@
 
 Just a front-end repository so I can get going with Front-End development more quickly.
 
+> - DE18-18 - Added Webpack Merge for difference webpack.config.js files ('development' and 'production')
 > - DE18-18 - Added React-axe
 > - DE18-18 - Added back .babelrc, added babel-jest babel-core@bridge for jest testing
 > - DE17-18 - Added React Hot Loading, Dynamic Import for ReactSuspense
