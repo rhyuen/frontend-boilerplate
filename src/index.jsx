@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import RootErrorBoundary from "./RootErrorBoundary.jsx";
 import App from "./App.jsx";
 
 if (process.env.NODE_ENV === "development") {
@@ -9,7 +10,9 @@ if (process.env.NODE_ENV === "development") {
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RootErrorBoundary>
+      <App />
+    </RootErrorBoundary>
   </React.StrictMode>,
   document.getElementById("app")
 );
