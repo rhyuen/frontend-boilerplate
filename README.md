@@ -2,6 +2,7 @@
 
 Just a front-end repository so I can get going with Front-End development more quickly.
 
+> - DE18-18 - Added back .babelrc, added babel-jest babel-core@bridge for jest testing
 > - DE17-18 - Added React Hot Loading, Dynamic Import for ReactSuspense
 > - DE17-18 - Enabled React.StrictMode
 > - DE17-18 - Added Webpack Bundle Analyzer

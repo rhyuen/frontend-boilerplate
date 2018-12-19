@@ -15,7 +15,7 @@ describe("<App/>", () => {
 
     it("should contain 2 p elements", () => {
         const wrapper = shallow(<App/>);
-        expect(wrapper.find("p").length).toBe(2);
+        expect(wrapper.find("p").length).toBe(3);
     });
 
     it("should contain an element with className = block__element--modifier", () => {

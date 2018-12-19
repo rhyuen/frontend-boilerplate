@@ -4,6 +4,11 @@ exports[`<App/> should match the snapshot 1`] = `
 <div
   className="root"
 >
+  <section>
+    <p>
+      React Hotloading Added.
+    </p>
+  </section>
   <p>
     Hi, Just some vague front end code.
   </p>
